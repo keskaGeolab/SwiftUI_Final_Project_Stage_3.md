@@ -1,0 +1,196 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        A10000000000000000000001 /* MyBudgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* MyBudgetApp.swift */; };
+        A10000000000000000000002 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Expense.swift */; };
+        A10000000000000000000003 /* ExpenseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* ExpenseCategory.swift */; };
+        A10000000000000000000004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* ContentView.swift */; };
+        A10000000000000000000005 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* AddExpenseView.swift */; };
+        A10000000000000000000006 /* ExpenseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* ExpenseRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        B10000000000000000000001 /* MyBudgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBudgetApp.swift; sourceTree = "<group>"; };
+        B10000000000000000000002 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+        B10000000000000000000003 /* ExpenseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategory.swift; sourceTree = "<group>"; };
+        B10000000000000000000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+        B10000000000000000000005 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+        B10000000000000000000006 /* ExpenseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseRowView.swift; sourceTree = "<group>"; };
+        B10000000000000000000007 /* Products */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Products; sourceTree = "<group>"; };
+        B10000000000000000000008 /* MyBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+        C10000000000000000000001 = {
+            isa = PBXGroup;
+            children = (
+                C10000000000000000000002 /* MyBudget */,
+                B10000000000000000000007 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        C10000000000000000000002 /* MyBudget */ = {
+            isa = PBXGroup;
+            path = MyBudget;
+            sourceTree = "<group>";
+            children = (
+                B10000000000000000000001 /* MyBudgetApp.swift */,
+                C10000000000000000000003 /* Models */,
+                C10000000000000000000004 /* Views */,
+                C10000000000000000000005 /* Extensions */,
+            );
+        };
+        C10000000000000000000003 /* Models */ = {
+            isa = PBXGroup;
+            path = Models;
+            sourceTree = "<group>";
+            children = (B10000000000000000000002 /* Expense.swift */,);
+        };
+        C10000000000000000000004 /* Views */ = {
+            isa = PBXGroup;
+            path = Views;
+            sourceTree = "<group>";
+            children = (
+                B10000000000000000000004 /* ContentView.swift */,
+                B10000000000000000000005 /* AddExpenseView.swift */,
+                B10000000000000000000006 /* ExpenseRowView.swift */,
+            );
+        };
+        C10000000000000000000005 /* Extensions */ = {
+            isa = PBXGroup;
+            path = Extensions;
+            sourceTree = "<group>";
+            children = (B10000000000000000000003 /* ExpenseCategory.swift */,);
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        D10000000000000000000001 /* MyBudget */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = E10000000000000000000002;
+            buildPhases = (
+                F10000000000000000000001 /* Sources */,
+                F10000000000000000000002 /* Frameworks */,
+                F10000000000000000000003 /* Resources */,
+            );
+            buildRules = ();
+            dependencies = ();
+            name = MyBudget;
+            productName = MyBudget;
+            productReference = B10000000000000000000008 /* MyBudget.app */;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        D10000000000000000000002 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastUpgradeCheck = 1600;
+                TargetAttributes = { D10000000000000000000001 = { CreatedOnToolsVersion = 16.0; }; };
+            };
+            buildConfigurationList = E10000000000000000000001;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (en, Base,);
+            mainGroup = C10000000000000000000001;
+            productRefGroup = C10000000000000000000001;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (D10000000000000000000001 /* MyBudget */,);
+        };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+        F10000000000000000000001 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                A10000000000000000000001 /* MyBudgetApp.swift in Sources */,
+                A10000000000000000000002 /* Expense.swift in Sources */,
+                A10000000000000000000003 /* ExpenseCategory.swift in Sources */,
+                A10000000000000000000004 /* ContentView.swift in Sources */,
+                A10000000000000000000005 /* AddExpenseView.swift in Sources */,
+                A10000000000000000000006 /* ExpenseRowView.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        F10000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+        F10000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        E10000000000000000000003 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.MyBudget;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        E10000000000000000000004 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.MyBudget;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+        E10000000000000000000001 /* Project configuration list */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (E10000000000000000000005, E10000000000000000000006,);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        E10000000000000000000002 /* Target configuration list */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (E10000000000000000000003, E10000000000000000000004,);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        E10000000000000000000005 /* Debug project */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = { };
+            name = Debug;
+        };
+        E10000000000000000000006 /* Release project */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = { };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+    };
+    rootObject = D10000000000000000000002 /* Project object */;
+}
